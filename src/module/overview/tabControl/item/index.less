@@ -1,0 +1,29 @@
+.tab-item {
+    float: left;
+    width: 50%;
+    padding: 16px 0px;
+    box-sizing: border-box;
+    border-right: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    .name {
+        font-size: 12px;
+        color: #666;
+    }
+    .avg {
+        font-size: 18px;
+        line-height: 48px;
+        color: #333;
+    }
+    .ratio {
+        font-size: 12px;
+        color: #999;
+    }
+}
+.tab-item:nth-child(even) {
+    border-right: 0;
+}
+.tab-item:nth-child(5),
+.tab-item:nth-child(6),
+{
+    border-bottom: 0;
+}
